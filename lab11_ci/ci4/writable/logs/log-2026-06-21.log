@@ -1,0 +1,301 @@
+CRITICAL - 2026-06-21 23:34:22 --> Unable to locate view cell class: App\Cells\ArtikelTerkini.
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(240): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('App\\Cells\\Artik...')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(81): CodeIgniter\View\Cell->determineClass('App\\Cells\\Artik...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, NULL)
+#3 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#8 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#11 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-06-21 23:35:11 --> Declaration of App\Cells\ArtikelTerkini::render(): string must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:35:12 --> Declaration of App\Cells\ArtikelTerkini::render(): string must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:37:11 --> Declaration of App\Cells\ArtikelTerkini::render(): string must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:37:11 --> Declaration of App\Cells\ArtikelTerkini::render(): string must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:37:11 --> Declaration of App\Cells\ArtikelTerkini::render(): string must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:37:12 --> Declaration of App\Cells\ArtikelTerkini::render(): string must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:38:38 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:38:38 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:38:39 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:39:23 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:39:24 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:39:24 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:41:06 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:41:07 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:41:07 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:42:27 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:42:28 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:42:28 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:42:29 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:42:29 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:42:29 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:42:29 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:42:57 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:43:00 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:44:36 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:45:30 --> Too few arguments to function CodeIgniter\View\Cell::__construct(), 0 passed in C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(94): CodeIgniter\View\Cell->__construct()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:46:16 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:46:16 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:46:17 --> Declaration of App\Cells\ArtikelTerkini::render() must be compatible with CodeIgniter\View\Cell::render(string $library, $params = null, int $ttl = 0, ?string $cacheName = null): string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-06-21 23:47:17 --> App\Cells\ArtikelTerkini::render is not a valid method.
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(103): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('App\\Cells\\Artik...', 'render')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 23:47:18 --> App\Cells\ArtikelTerkini::render is not a valid method.
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\Cell.php(103): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('App\\Cells\\Artik...', 'render')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\Cell->render('App\\Cells\\Artik...', NULL, 0, 'AppCellsArtikel...')
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Views\layout\main.php(24): view_cell('App\\Cells\\Artik...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(246): CodeIgniter\View\View->render('layout/main', Array, true)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1250): CodeIgniter\View\View->render('about', Array, true)
+#7 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(931): App\Controllers\Page->about()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}

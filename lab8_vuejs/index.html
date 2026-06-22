@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend VueJS</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="app">
+
+        <h1>Daftar Artikel</h1>
+
+        <!-- Tombol Tambah -->
+        <button id="btn-tambah" @click="tambah">+ Tambah Data</button>
+
+        <!-- Modal Form -->
+        <div class="modal" v-if="showForm">
+            <div class="modal-content">
+                <span class="close" @click="showForm = false">&times;</span>
+                <h3>{{ formTitle }}</h3>
+                <form @submit.prevent="saveData">
+                    <input type="hidden" v-model="formData.id">
+                    <div>
+                        <label>Judul</label>
+                        <input type="text" v-model="formData.judul"
+                               placeholder="Judul artikel" required>
+                    </div>
+                    <div>
+                        <textarea v-model="formData.isi" rows="8"
+                                  placeholder="Isi artikel"></textarea>
+                    </div>
+                    <div>
+                        <label>Status</label>
+                        <select v-model="formData.status">
+                            <option v-for="opt in statusOptions"
+                                    :value="opt.value">
+                                {{ opt.text }}
+                            </option>
+                        </select>
+                    </div>
+                    <div v-if="errorMsg" class="error-msg">{{ errorMsg }}</div>
+                    <button type="submit" id="btnSimpan">Simpan</button>
+                    <button type="button" @click="showForm = false">Batal</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Tabel Data -->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Judul</th>
+                    <th>Status</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-if="loading">
+                    <td colspan="4">Memuat data...</td>
+                </tr>
+                <tr v-else-if="artikel.length === 0">
+                    <td colspan="4">Belum ada data.</td>
+                </tr>
+                <tr v-else v-for="(row, index) in artikel" :key="row.id">
+                    <td class="center-text">{{ row.id }}</td>
+                    <td>{{ row.judul }}</td>
+                    <td class="center-text">{{ statusText(row.status) }}</td>
+                    <td class="center-text">
+                        <a href="#" @click.prevent="edit(row)">Edit</a>
+                        <a href="#" @click.prevent="hapus(index, row.id)">Hapus</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
